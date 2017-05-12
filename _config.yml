@@ -3,6 +3,11 @@ defaults:
       path: "assets/img"
     values:
       image: true
+description: "Personal site"      
+future: false
+paginate: 6
+paginate_path: 'page:num'
+permalink: /:categories/:title/
 theme: jekyll-theme-hacker
-timezone: Ukraine/Kiev
+timezone: Europe/Kiev
 title: undead404
