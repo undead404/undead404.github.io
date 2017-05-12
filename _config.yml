@@ -1,4 +1,8 @@
-owner_name: undead404
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 theme: jekyll-theme-hacker
 timezone: Ukraine/Kiev
 title: undead404

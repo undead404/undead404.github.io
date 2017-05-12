@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to my world
 
-You can use the [editor on GitHub](https://github.com/undead404/undead404.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+My name is Vitalii. I live in Vinnytsia, Ukraine (UTC+2). My main interests are programming with Python, science fiction - movies, books, music - listening and playing drums.
+{% assign avatar = site.static_files | where: "basename", "fire" %}
+![undead404]({{avatar.path}})
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
