@@ -2,7 +2,7 @@
 
 My name is Vitalii. I live in Vinnytsia, Ukraine (UTC+2). My main interests are programming with Python, science fiction - movies, books, music - listening and playing drums.
 {% assign avatar = site.static_files | where: "basename", "fire" %}
-![undead404]({{avatar.path}})
+![undead404](/assets/img/fire.jpg)
 
 
 ### Markdown
