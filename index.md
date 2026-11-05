@@ -5,34 +5,54 @@ title: Welcome to my world
 
 # Welcome to my world
 
-My name is Vitalii. I'm 24. I live in Vinnytsia, Ukraine (UTC+2).
+My name is Vitalii Perehonchuk. I'm a Lead Software Engineer from Vinnytsia, Ukraine, focused on full-stack web development with React and Node.js.
 ![undead404](/assets/img/fire.jpg)
 My main interests are:
-- programming with Python: web scraping, web development
+- full-stack web development with React and Node.js
 - science fiction - movies, books
 - music - playing drums, listen to my band: [ellan](https://ellanband.bandcamp.com)
-- vegetarianism
-- writing poetry in Ukrainian and Russian
 
+## Work experience
 
-## Programming
-_My past projects_
+### EPAM
+_2020–present_
 
-### komentor
-_Python, Django_
-`komentor` is my current project for diploma.
+I'm currently a Lead Software Engineer. My main focus is full-stack development with React and Node.js.
+
+### ElifTech
+_2017–2020_
+
+My first software engineering job, where I grew from trainee to middle developer and mentored frontend students at ElifTech IT School.
+
+## Current projects
+
+### Корені
+[koreni.org.ua](https://koreni.org.ua/)
+
+A search engine for genealogical indexes, bringing together data from many separate tables to help people find their roots.
+
+### Генеалогія Шаргородщини
+[sharhoroots.koreni.org.ua](https://sharhoroots.koreni.org.ua/)
+
+A knowledge base for researching family history and locating parish registers and archival records from the historical Sharhorod, Dzhuryn, and Murafa areas.
+
+### Пісня туманів
+[Project website](https://undead404.github.io/pisnia-tumaniv/) · [YouTube playlist](https://www.youtube.com/playlist?list=PL2zoJ5Mco28pMShErqXngbEWYwr65IDCb)
+
+### You Must Hear 8
+[ymh8.pages.dev](https://ymh8.pages.dev/)
+
+A music discovery project for exploring releases, genres, and rankings.
+
+## Past projects
+_Kept here for nostalgia._
 
 ### socmusrec
-_JavaScript, AngularJS, VK API, Last.fm API, Azure_
+_JavaScript, AngularJS, Last.fm API, Azure_
 [![socmusrec](/assets/img/socmusrec_little.jpg)](/assets/img/socmusrec.jpg)
-`socmusrec` was a fully frontend project. It was about retrieving data about audios stored at personal vk.com pages, analyzing these audios by means of Last.fm api, and providing analysis results and comparation of two users' tastes in music - **in percents**. Asynchroneousity was developed with promises. It was great, **I loved this project**. Rest in peace.
+`socmusrec` was a fully frontend project for analyzing personal music libraries with the Last.fm API and comparing two users' tastes in music - **in percents**. Asynchronous work was handled with promises. I remember it fondly as an early experiment in music analysis.
 
 All the code was written in JavaScript by means of AngularJS, the site was launched at Azure.
-
-### israel_parser
-_Python, lxml, tkinter, sqlite3, openpyxl_
-![israel_parser](/assets/img/israel_parser.jpg)
-`israel_parser` was about scraping of several bulletin boards. The app was a desktop one with GUI on `tkinter`, scraping was being launched manually, the results were being stored in `SQLite` database file and extracted to .xlsx files.
 
 ### rhymes-seeker
 _PHP, MySQL_
