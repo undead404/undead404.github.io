@@ -11,3 +11,11 @@ permalink: /:categories/:title/
 theme: jekyll-theme-hacker
 timezone: Europe/Kiev
 title: undead404
+url: "https://undead404.github.io"
+baseurl: ""
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - mise.toml

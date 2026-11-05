@@ -1,44 +1,38 @@
-# Welcome to my world
+# undead404.github.io
 
-My name is Vitalii. I'm 24. I live in Vinnytsia, Ukraine (UTC+2).
-![undead404](/assets/img/fire.jpg)
-My main interests are:
-- programming with Python: web scraping, web development
-- science fiction - movies, books
-- music - playing drums, listen to my band: [ellan](https://ellanband.bandcamp.com)
-- vegetarianism
-- writing poetry in Ukrainian and Russian
+My personal website. Jekyll, the Hacker theme, Markdown, and GitHub Pages.
 
+## Structure
 
-## Programming
-_My past projects_
+- `index.md` — the actual homepage, in my original words.
+- `_layouts/default.html` — the original Hacker-based page layout.
+- `_config.yml` — Jekyll settings and theme selection.
+- `assets/style/style.scss` — the existing theme import.
+- `assets/img/` — original photos and project screenshots.
+- `sitemap.xml` — sitemap template.
 
-### komentor
-_Python, Django_
-`komentor` is my current project for diploma.
+The homepage has its own entry point instead of depending on GitHub Pages interpreting this README as a website. Repository documentation is excluded from the published site.
 
-### socmusrec
-_JavaScript, AngularJS, VK API, Last.fm API, Azure_
-[![socmusrec](/assets/img/socmusrec_little.jpg)](/assets/img/socmusrec.jpg)
-`socmusrec` was a fully frontend project. It was about retrieving data about audios stored at personal vk.com pages, analyzing these audios by means of Last.fm api, and providing analysis results and comparation of two users' tastes in music - **in percents**. Asynchroneousity was developed with promises. It was great, **I loved this project**. Rest in peace.
+## Local development
 
-All the code was written in JavaScript by means of AngularJS, the site was launched at Azure.
+This project uses Ruby 3.3.13 through mise. macOS's bundled Ruby 2.6 is too old for the dependency set. With mise installed, run from this directory:
 
-### israel_parser
-_Python, lxml, tkinter, sqlite3, openpyxl_
-![israel_parser](/assets/img/israel_parser.jpg)
-`israel_parser` was about scraping of several bulletin boards. The app was a desktop one with GUI on `tkinter`, scraping was being launched manually, the results were being stored in `SQLite` database file and extracted to .xlsx files.
+```sh
+mise install
+mise exec -- bundle install
+mise exec -- bundle exec jekyll serve
+```
 
-### rhymes-seeker
-_PHP, MySQL_
-![rhymes-seeker](/assets/img/rhymes-seeker.jpg)
-`rhymes-seeker` was built ontop of an **enormous MySQL database of Ukrainian language**: all the words, about 1,000,000 forms of words.
+Open the local address printed by Jekyll. To build without starting a server:
 
-A user provided a word, and `rhymes-seeker` answered with possible rhymes. Words were handled by their pronunciation.
+```sh
+mise exec -- bundle exec jekyll build
+```
 
-`rhymes-seeker` was never launched due to bulkiness of its database, and now the database is lost.
+The `github-pages` gem uses GitHub Pages' dependency set. `Gemfile.lock` records the resolved versions for local development. Update it deliberately with `mise exec -- bundle update github-pages`. Using `mise exec --` explicitly selects the project's Ruby, even if your shell still resolves plain `ruby` or `bundle` to macOS's system installation.
 
-### adir114.info
-adir114.info was my first real project, I've developed it when I was about 18. It was a frameworkless PHP web site with blog, uploading photos and other files, et cetera. An MLM organization used it as its home page.
+See [GitHub's local Jekyll guide](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
 
-It's dead since 2014, but you can look how awful it was via Wayback Machine.
+## Publishing
+
+Keep using the repository's existing GitHub Pages publishing source. No additional hosting service, JavaScript framework, or deployment workflow is required.
