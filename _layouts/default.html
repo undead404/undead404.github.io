@@ -1,45 +1,54 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
-  </head>
-
-  <body>
-
-    <header>
-      <div class="container">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
-        <section id="downloads">
-          {% if site.show_downloads %}
-            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-          {% endif %}
-          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11140f">
+  <meta name="description" content="Vitalii Perehonchuk — software engineer, genealogist, drummer, and explorer of imaginary worlds. Vinnytsia, Ukraine.">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <title>{{ site.title }} — code, roots & noise</title>
+</head>
+<body>
+  <a class="skip" href="#main_content">Skip to content</a>
+  <div class="shell">
+    <header class="masthead">
+      <a class="wordmark" href="{{ '/' | relative_url }}">undead<span>404</span><span class="cursor" aria-hidden="true">_</span></a>
+      <span class="coordinates">VINNYTSIA, UA / 49°14′ N 28°28′ E</span>
+      <a class="source-link" href="https://github.com/undead404">GITHUB ↗</a>
     </header>
-
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> PERSONAL WEBSITE / UNDEAD404</p>
+          <h1 id="hero-title">CODE.<br>ROOTS.<br><span class="outline">NOISE.</span></h1>
+          <p class="hero-intro">Vitalii Perehonchuk.<br>Software engineer by trade.<br>Unearthing things by instinct.</p>
+          <a class="enter-link" href="#current-projects">Explore the living archive <span>↘</span></a>
+        </div>
+        <div class="specimen">
+          <div class="specimen-label"><span>FIG. 01 — THE COMMON ANCESTOR</span><span>↗</span></div>
+          <svg class="root-system" viewBox="0 0 540 490" role="img" aria-labelledby="root-title">
+            <title id="root-title">A branching circuit connecting code, ancestry, music, and imaginary worlds</title>
+            <defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M 30 0 L 0 0 0 30" fill="none" stroke="currentColor" stroke-width=".4" opacity=".22"/></pattern></defs>
+            <rect width="540" height="490" fill="url(#grid)"/>
+            <g fill="none" stroke="currentColor">
+              <circle cx="270" cy="235" r="155" stroke-dasharray="2 9" opacity=".5"/>
+              <circle cx="270" cy="235" r="104" opacity=".2"/>
+              <path d="M270 422V272M270 330l-75-45v-70l-65-40v-60M270 365l108-62v-71l48-28v-65M270 290l65-38v-85l-65-38V65M270 272l-43-25v-92l-48-28V85M195 250l-62 35H80M378 280l63 37v50M335 198l57-33V95M227 196l-62-36H75M270 390l-80 46H125M270 402l73 42h55" stroke-width="2"/>
+              <path d="M265 422V285M275 422V285" opacity=".35"/>
+              <g stroke-width="2" fill="#171c13"><circle cx="270" cy="65" r="8"/><circle cx="179" cy="85" r="5"/><circle cx="130" cy="115" r="8"/><circle cx="75" cy="160" r="5"/><circle cx="80" cy="285" r="8"/><circle cx="426" cy="139" r="8"/><circle cx="392" cy="95" r="5"/><circle cx="441" cy="367" r="8"/><circle cx="125" cy="436" r="5"/><circle cx="398" cy="444" r="5"/></g>
+              <path d="M255 235l15-20 15 20-15 20z" fill="currentColor"/>
+              <path d="M250 26h40M270 6v40M35 235h25M47 223v24M475 235h25M488 223v24" opacity=".6"/>
+            </g>
+            <g fill="currentColor" font-family="monospace" font-size="11" letter-spacing="2"><text x="286" y="64">ANCESTRY</text><text x="66" y="102">CODE</text><text x="440" y="135">NOISE</text><text x="392" y="392">WORLDS</text><text x="284" y="477">EST. / STILL BRANCHING</text></g>
+          </svg>
+          <div class="specimen-footer"><span>ONE PERSON. SEVERAL RABBIT HOLES.</span><span class="signal" aria-hidden="true">▂▅▃▇▂▆▃</span></div>
+        </div>
       </section>
-    </div>
-
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
-  </body>
+      <nav class="index-nav" aria-label="On this page"><span>INDEX /</span><a href="#current-projects">01 Projects</a><a href="#music">02 Noise</a><a href="#work-experience">03 Work</a><a href="#open-source-contributions">04 Open source</a><a href="#past-projects">05 Graveyard</a></nav>
+      <div class="archive-heading"><span>↓ EXCAVATE BELOW</span><span>EVERYTHING IS CONNECTED, EVENTUALLY.</span></div>
+      <article id="main_content" class="field-notes">{{ content }}</article>
+    </main>
+    <footer class="site-footer"><a href="#">↑ Back to the surface</a><span>undead404 / END OF FILE, FOR NOW.</span><a href="https://www.threads.com/@brute18">Threads ↗</a></footer>
+  </div>
+</body>
 </html>

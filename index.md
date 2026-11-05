@@ -3,7 +3,7 @@ layout: default
 title: Welcome to my world
 ---
 
-# Welcome to my world
+## The person behind the terminal
 
 My name is Vitalii Perehonchuk. I'm a Lead Software Engineer from Vinnytsia, Ukraine, focused on full-stack web development with React and Node.js.
 
@@ -18,6 +18,39 @@ My main interests are:
 - music and drumming
 - tabletop role-playing games, including Пісня туманів
 - genealogy — I blog mostly about it on [Threads (@brute18)](https://www.threads.com/@brute18)
+
+## Current projects
+
+### Корені
+[koreni.org.ua](https://koreni.org.ua/)
+
+I created Корені, a search engine for genealogical indexes, bringing together data from many separate tables to help people find their roots.
+
+[About the project](https://koreni.org.ua/about/) · [Source code](https://github.com/undead404/koreni) · [Project updates](https://t.me/koreni_org_ua)
+
+I also contribute archival indexes myself. As of November 2026, my [volunteer profile](https://koreni.org.ua/volunteers/vitalii-perehonchuk/) credits me with 122,900 records across 104 tables. My research includes parish registers, confession lists, and revision lists from places such as Політанки, Писарівка, and Черепашинці.
+
+### Генеалогія Шаргородщини
+[sharhoroots.koreni.org.ua](https://sharhoroots.koreni.org.ua/)
+
+A knowledge base for researching family history and locating parish registers and archival records from the historical Sharhorod, Dzhuryn, and Murafa areas.
+
+### ЇХ Подкаст
+[Listen to the podcast](https://podtail.com/en/podcast/cddf8d0f/)
+
+Олександр Товмач, the developer of Качиний Інспектор, and I discuss genealogy, our research experiences, the Ukrainian genealogy community, and the software we build. Topics include why we research our family histories, gaps in the records, and the role of individuals in history.
+
+### Пісня туманів
+[Project website](https://undead404.github.io/pisnia-tumaniv/) · [YouTube playlist](https://www.youtube.com/playlist?list=PL2zoJ5Mco28pMShErqXngbEWYwr65IDCb)
+
+A knowledge base for Пісня туманів, a campaign I play in using the indie tabletop role-playing game **Кавалерія** by Ukrainian publisher [**M87\* Games**](https://m87games.com/).
+
+Our game master is [Oleksandr Trifan (Олександр Тріфан)](https://linktr.ee/alexander_trifan), the creator of Кавалерія and founder of M87\* Games.
+
+### You Must Hear 8
+[ymh8.pages.dev](https://ymh8.pages.dev/)
+
+A music discovery project for exploring releases, genres, and rankings.
 
 ## Music
 
@@ -55,39 +88,6 @@ I contributed to WebDoky, a project making MDN web documentation available in Uk
 [uk.react.dev](https://uk.react.dev/) · [Translation contributions](https://github.com/reactjs/uk.react.dev/issues/457)
 
 I contributed Ukrainian translations of “Start a New React Project” and “Editor Setup,” along with work on navigation and sidebar titles.
-
-## Current projects
-
-### Корені
-[koreni.org.ua](https://koreni.org.ua/)
-
-I created Корені, a search engine for genealogical indexes, bringing together data from many separate tables to help people find their roots.
-
-[About the project](https://koreni.org.ua/about/) · [Source code](https://github.com/undead404/koreni) · [Project updates](https://t.me/koreni_org_ua)
-
-I also contribute archival indexes myself. As of November 2026, my [volunteer profile](https://koreni.org.ua/volunteers/vitalii-perehonchuk/) credits me with 122,900 records across 104 tables. My research includes parish registers, confession lists, and revision lists from places such as Політанки, Писарівка, and Черепашинці.
-
-### Генеалогія Шаргородщини
-[sharhoroots.koreni.org.ua](https://sharhoroots.koreni.org.ua/)
-
-A knowledge base for researching family history and locating parish registers and archival records from the historical Sharhorod, Dzhuryn, and Murafa areas.
-
-### ЇХ Подкаст
-[Listen to the podcast](https://podtail.com/en/podcast/cddf8d0f/)
-
-Олександр Товмач, the developer of Качиний Інспектор, and I discuss genealogy, our research experiences, the Ukrainian genealogy community, and the software we build. Topics include why we research our family histories, gaps in the records, and the role of individuals in history.
-
-### Пісня туманів
-[Project website](https://undead404.github.io/pisnia-tumaniv/) · [YouTube playlist](https://www.youtube.com/playlist?list=PL2zoJ5Mco28pMShErqXngbEWYwr65IDCb)
-
-A knowledge base for Пісня туманів, a campaign I play in using the indie tabletop role-playing game **Кавалерія** by Ukrainian publisher [**M87\* Games**](https://m87games.com/).
-
-Our game master is [Oleksandr Trifan (Олександр Тріфан)](https://linktr.ee/alexander_trifan), the creator of Кавалерія and founder of M87\* Games.
-
-### You Must Hear 8
-[ymh8.pages.dev](https://ymh8.pages.dev/)
-
-A music discovery project for exploring releases, genres, and rankings.
 
 ## Past projects
 _Kept here for nostalgia._

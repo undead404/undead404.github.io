@@ -5,9 +5,10 @@ My personal website. Jekyll, the Hacker theme, Markdown, and GitHub Pages.
 ## Structure
 
 - `index.md` — the homepage, with current projects and a nostalgic archive of past work.
-- `_layouts/default.html` — the original Hacker-based page layout.
+- `_layouts/default.html` — the custom Hacker-based field-terminal layout and branching circuit illustration.
 - `_config.yml` — Jekyll settings and theme selection.
-- `assets/style/style.scss` — the existing theme import.
+- `assets/css/style.scss` — the Hacker theme import, custom design, and responsive layouts.
+- `assets/style/style.scss` — legacy theme entry point.
 - `assets/img/` — original photos and project screenshots.
 - `sitemap.xml` — sitemap template.
 
