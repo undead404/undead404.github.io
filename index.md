@@ -6,6 +6,10 @@ title: Welcome to my world
 # Welcome to my world
 
 My name is Vitalii Perehonchuk. I'm a Lead Software Engineer from Vinnytsia, Ukraine, focused on full-stack web development with React and Node.js.
+
+I also contribute to Ukrainian developer documentation and build tools for exploring family history and music.
+
+[GitHub](https://github.com/undead404) · [Threads](https://www.threads.com/@brute18)
 ![Vitalii Perehonchuk](/assets/img/vitalii-perehonchuk.jpg)
 My main interests are:
 - full-stack web development with React and Node.js
@@ -20,6 +24,8 @@ I played drums in two bands:
 - [ellan](https://ellanband.bandcamp.com) — active around 2015–2017; now inactive.
 - [Necrophag](https://www.youtube.com/@necrophag7942) — I was the drummer in this metal band around 2017–2021.
 
+I also used to write about extreme metal on my Telegram channel, [Непізнаний простір](https://t.me/vast_space_unexplored), and on Twitter as [@negativo_ua](https://x.com/negativo_ua).
+
 ## Work experience
 
 ### EPAM
@@ -32,22 +38,49 @@ _2017–2020_
 
 My first software engineering job, where I grew from trainee to middle developer and mentored frontend students at ElifTech IT School.
 
+## Education
+
+**Bachelor's degree in Software Engineering**, Vinnytsia National Technical University (ВНТУ), 2013–2017.
+
+## Open-source contributions
+
+### WebDoky
+[webdoky.org](https://webdoky.org/) · [Content repository](https://github.com/webdoky/content)
+
+I contributed to WebDoky, a project making MDN web documentation available in Ukrainian. I also [helped invite new translators](https://discourse.mozilla.org/t/ukrainian-translations-are-gone-from-mdn/79939?page=2) to the project.
+
+### Ukrainian React documentation
+[uk.react.dev](https://uk.react.dev/) · [Translation contributions](https://github.com/reactjs/uk.react.dev/issues/457)
+
+I contributed Ukrainian translations of “Start a New React Project” and “Editor Setup,” along with work on navigation and sidebar titles.
+
 ## Current projects
 
 ### Корені
 [koreni.org.ua](https://koreni.org.ua/)
 
-A search engine for genealogical indexes, bringing together data from many separate tables to help people find their roots.
+I created Корені, a search engine for genealogical indexes, bringing together data from many separate tables to help people find their roots.
+
+[About the project](https://koreni.org.ua/about/) · [Source code](https://github.com/undead404/koreni) · [Project updates](https://t.me/koreni_org_ua)
+
+I also contribute archival indexes myself. As of November 2026, my [volunteer profile](https://koreni.org.ua/volunteers/vitalii-perehonchuk/) credits me with 122,900 records across 104 tables. My research includes parish registers, confession lists, and revision lists from places such as Політанки, Писарівка, and Черепашинці.
 
 ### Генеалогія Шаргородщини
 [sharhoroots.koreni.org.ua](https://sharhoroots.koreni.org.ua/)
 
 A knowledge base for researching family history and locating parish registers and archival records from the historical Sharhorod, Dzhuryn, and Murafa areas.
 
+### ЇХ Подкаст
+[Listen to the podcast](https://podtail.com/en/podcast/cddf8d0f/)
+
+Олександр Товмач, the developer of Качиний Інспектор, and I discuss genealogy, our research experiences, the Ukrainian genealogy community, and the software we build. Topics include why we research our family histories, gaps in the records, and the role of individuals in history.
+
 ### Пісня туманів
 [Project website](https://undead404.github.io/pisnia-tumaniv/) · [YouTube playlist](https://www.youtube.com/playlist?list=PL2zoJ5Mco28pMShErqXngbEWYwr65IDCb)
 
-A knowledge base for a tabletop role-playing campaign I play in.
+A knowledge base for Пісня туманів, a campaign I play in using the indie tabletop role-playing game **Кавалерія** by Ukrainian publisher [**M87\* Games**](https://m87games.com/).
+
+Our game master is [Oleksandr Trifan (Олександр Тріфан)](https://linktr.ee/alexander_trifan), the creator of Кавалерія and founder of M87\* Games.
 
 ### You Must Hear 8
 [ymh8.pages.dev](https://ymh8.pages.dev/)
@@ -64,6 +97,8 @@ _JavaScript, AngularJS, Last.fm API, Azure_
 
 All the code was written in JavaScript by means of AngularJS, the site was launched at Azure.
 
+The project was also described in a [VNTU conference publication](https://conferences.vntu.edu.ua/public/files/1/fitki_2016_netpub.pdf), covering music taste comparison using Last.fm data.
+
 ### rhymes-seeker
 _PHP, MySQL_
 ![rhymes-seeker](/assets/img/rhymes-seeker.jpg)
@@ -72,6 +107,8 @@ _PHP, MySQL_
 A user provided a word, and `rhymes-seeker` answered with possible rhymes. Words were handled by their pronunciation.
 
 `rhymes-seeker` was never launched due to bulkiness of its database, and now the database is lost.
+
+The Ukrainian title was **Шукач рим**. I co-authored the program, whose sound- and stress-based rhyme search is documented in the [2015 official copyright bulletin](https://ukrpatent.org/atachs/AvtorPravo_%E2%84%9636_2015.pdf).
 
 ### adir114.info
 adir114.info was my first real project, I've developed it when I was about 18. It was a frameworkless PHP web site with blog, uploading photos and other files, et cetera. An MLM organization used it as its home page.
