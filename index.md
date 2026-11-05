@@ -6,11 +6,19 @@ title: Welcome to my world
 # Welcome to my world
 
 My name is Vitalii Perehonchuk. I'm a Lead Software Engineer from Vinnytsia, Ukraine, focused on full-stack web development with React and Node.js.
-![undead404](/assets/img/fire.jpg)
+![Vitalii Perehonchuk](/assets/img/vitalii-perehonchuk.jpg)
 My main interests are:
 - full-stack web development with React and Node.js
-- science fiction - movies, books
-- music - playing drums, listen to my band: [ellan](https://ellanband.bandcamp.com)
+- music and drumming
+- tabletop role-playing games, including Пісня туманів
+- genealogy — I blog mostly about it on [Threads (@brute18)](https://www.threads.com/@brute18)
+
+## Music
+
+I played drums in two bands:
+
+- [ellan](https://ellanband.bandcamp.com) — active around 2015–2017; now inactive.
+- [Necrophag](https://www.youtube.com/@necrophag7942) — I was the drummer in this metal band around 2017–2021.
 
 ## Work experience
 
@@ -38,6 +46,8 @@ A knowledge base for researching family history and locating parish registers an
 
 ### Пісня туманів
 [Project website](https://undead404.github.io/pisnia-tumaniv/) · [YouTube playlist](https://www.youtube.com/playlist?list=PL2zoJ5Mco28pMShErqXngbEWYwr65IDCb)
+
+A knowledge base for a tabletop role-playing campaign I play in.
 
 ### You Must Hear 8
 [ymh8.pages.dev](https://ymh8.pages.dev/)
