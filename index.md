@@ -10,7 +10,9 @@ My name is Vitalii Perehonchuk. I'm a Lead Software Engineer from Vinnytsia, Ukr
 I also contribute to Ukrainian developer documentation and build tools for exploring family history and music.
 
 [GitHub](https://github.com/undead404) · [Threads](https://www.threads.com/@brute18)
+
 ![Vitalii Perehonchuk](/assets/img/vitalii-perehonchuk.jpg)
+
 My main interests are:
 - full-stack web development with React and Node.js
 - music and drumming
