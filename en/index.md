@@ -20,7 +20,7 @@ My main interests are:
 
 - full-stack web development with React and Node.js
 - music and drumming
-- tabletop role-playing games, including Пісня туманів
+- tabletop role-playing games — for example, Kavaleriia (sci-fi, neofeudalism, mecha) by M87\* Games
 - genealogy — I blog mostly about it on [Threads (@brute18)](https://www.threads.com/@brute18)
 
 ## Current projects {#current-projects}
