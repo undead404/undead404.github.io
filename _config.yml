@@ -3,7 +3,8 @@ defaults:
       path: "assets/img"
     values:
       image: true
-description: "Personal site"      
+lang: uk
+description: "Особистий сайт Віталія Перегончука"
 future: false
 paginate: 6
 paginate_path: 'page:num'

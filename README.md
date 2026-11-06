@@ -4,7 +4,9 @@ My personal website. Jekyll, the Hacker theme, Markdown, and GitHub Pages.
 
 ## Structure
 
-- `index.md` — the homepage, with current projects and a nostalgic archive of past work.
+- `index.md` — the Ukrainian homepage at `/`.
+- `en/index.md` — the English version at `/en/`.
+- `_data/i18n/{uk,en}.yml` — translated layout labels and metadata.
 - `_layouts/default.html` — the custom Hacker-based field-terminal layout and branching circuit illustration.
 - `_config.yml` — Jekyll settings and theme selection.
 - `assets/css/style.scss` — the Hacker theme import, custom design, and responsive layouts.
@@ -37,3 +39,7 @@ See [GitHub's local Jekyll guide](https://docs.github.com/en/pages/setting-up-a-
 ## Publishing
 
 Keep using the repository's existing GitHub Pages publishing source. No additional hosting service, JavaScript framework, or deployment workflow is required.
+
+## Languages
+
+Ukrainian is the default language. The header links to English at `/en/` and back to Ukrainian at `/`. Update both Markdown files together when content changes, and both translation files when interface text changes. Keep explicit section IDs identical across translations so navigation links remain stable. Both pages share the layout, styles, images, and reciprocal language metadata.
