@@ -77,6 +77,8 @@ _Поки незакінчений._
 
 Також раніше писав про екстремальний метал у своєму Telegram-каналі [Непізнаний простір](https://t.me/vast_space_unexplored) та у Twitter як [@negativo_ua](https://x.com/negativo_ua).
 
+Мої треди у Twitter про екстремальний метал за 2022 рік легко знайти на [Typefully](https://typefully.com/negativo_ua).
+
 ## Досвід роботи {#work-experience}
 
 ### EPAM
@@ -112,6 +114,12 @@ _2017–2020_
 ## Минулі проєкти {#past-projects}
 
 _Збережено тут заради ностальгії._
+
+### Блог на Друкарні
+
+_2024_
+
+У 2024 році я вів [блог на Друкарні](https://drukarnia.com.ua/negativo_ua), де публікував переклади та власні тексти на різні теми.
 
 ### socmusrec
 

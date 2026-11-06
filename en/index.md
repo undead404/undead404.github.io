@@ -77,6 +77,8 @@ Once I was a drummer:
 
 I also used to write about extreme metal on my Telegram channel, [Непізнаний простір](https://t.me/vast_space_unexplored), and on Twitter as [@negativo_ua](https://x.com/negativo_ua).
 
+My Twitter threads about extreme metal from 2022 are easy to find on [Typefully](https://typefully.com/negativo_ua).
+
 ## Work experience {#work-experience}
 
 ### EPAM
@@ -112,6 +114,12 @@ I contributed Ukrainian translations of “Start a New React Project” and “E
 ## Past projects {#past-projects}
 
 _Kept here for nostalgia._
+
+### Drukarnia blog
+
+_2024_
+
+In 2024, I maintained a [blog on Drukarnia](https://drukarnia.com.ua/negativo_ua), publishing translations and my own writing on a variety of topics.
 
 ### socmusrec
 
