@@ -124,7 +124,7 @@ _2024_
 ### socmusrec
 
 _JavaScript, AngularJS, Last.fm API, Azure_
-[![socmusrec](/assets/img/socmusrec_little.jpg)](/assets/img/socmusrec.jpg)
+[![socmusrec](/assets/img/socmusrec_little.jpg)](/assets/img/socmusrec.jpg){:target="_blank" rel="noopener"}
 `socmusrec` був суто фронтенд-проєктом для аналізу особистих музичних бібліотек через Last.fm API та порівняння музичних смаків двох користувачів — **у відсотках**. Асинхронні операції працювали на промісах. З теплотою згадую його як один із перших експериментів з аналізом музики.
 
 Увесь код був написаний на JavaScript з використанням AngularJS, а сайт працював на Azure.

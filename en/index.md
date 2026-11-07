@@ -124,7 +124,7 @@ In 2024, I maintained a [blog on Drukarnia](https://drukarnia.com.ua/negativo_ua
 ### socmusrec
 
 _JavaScript, AngularJS, Last.fm API, Azure_
-[![socmusrec](/assets/img/socmusrec_little.jpg)](/assets/img/socmusrec.jpg)
+[![socmusrec](/assets/img/socmusrec_little.jpg)](/assets/img/socmusrec.jpg){:target="_blank" rel="noopener"}
 `socmusrec` was a fully frontend project for analyzing personal music libraries with the Last.fm API and comparing two users' tastes in music - **in percents**. Asynchronous work was handled with promises. I remember it fondly as an early experiment in music analysis.
 
 All the code was written in JavaScript by means of AngularJS, the site was launched at Azure.
