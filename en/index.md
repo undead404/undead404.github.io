@@ -33,9 +33,9 @@ I created Корені, a search engine for genealogical indexes, bringing toget
 
 [About the project](https://koreni.org.ua/about/) · [Source code](https://github.com/undead404/koreni) · [Project updates](https://t.me/koreni_org_ua)
 
-I also contribute archival indexes myself. As of November 2026, my [volunteer profile](https://koreni.org.ua/volunteers/vitalii-perehonchuk/) credits me with 122,900 records across 104 tables. My research includes parish registers, confession lists, and revision lists from places such as Політанки, Писарівка, and Черепашинці.
+I also contribute archival indexes myself. As of November 2026, my [volunteer profile](https://koreni.org.ua/volunteers/vitalii-perehonchuk/) credits me with 122,900 records across 104 tables. My research includes parish registers, confession lists, and revision lists from places such as Politanky, Pysarivka (near Sharhorod), and Cherepashyntsi.
 
-### Генеалогія Шаргородщини
+### Sharhorod area genealogy
 
 [sharhoroots.koreni.org.ua](https://sharhoroots.koreni.org.ua/)
 
@@ -43,19 +43,19 @@ A knowledge base for researching family history and locating parish registers an
 
 ### ЇХ Подкаст
 
-[Listen to the podcast](https://podtail.com/en/podcast/cddf8d0f/)
+[Listen to the podcast (in Ukrainian)](https://podtail.com/en/podcast/cddf8d0f/)
 
-Олександр Товмач, the developer of Качиний Інспектор, and I discuss genealogy, our research experiences, the Ukrainian genealogy community, and the software we build. Topics include why we research our family histories, gaps in the records, and the role of individuals in history.
+Oleksandr, the developer of The Duck Inspector, and I discuss genealogy, our research experiences, the Ukrainian genealogy community, and the software we build. Topics include why we research our family histories, gaps in the records, and the role of individuals in history.
 
 ### Пісня туманів
 
 [Knowledge base](https://undead404.github.io/pisnia-tumaniv/) · [YouTube playlist](https://www.youtube.com/playlist?list=PL2zoJ5Mco28pMShErqXngbEWYwr65IDCb)
 
-A knowledge base for Пісня туманів, a campaign I play in using the indie tabletop role-playing game **Кавалерія** by Ukrainian publisher [**M87\* Games**](https://m87games.com/).
+A knowledge base for Пісня туманів ("Song of the Mists"), a campaign I play in using the indie tabletop role-playing game **Kavaleriia** by Ukrainian publisher [**M87\* Games**](https://m87games.com/).
 
-Our game master is [Oleksandr Trifan (Олександр Тріфан)](https://linktr.ee/alexander_trifan), the creator of Кавалерія and founder of M87\* Games.
+Our game master is [Oleksandr Trifan (Олександр Тріфан)](https://linktr.ee/alexander_trifan), the creator of Kavaleriia and founder of M87\* Games.
 
-### Eclipse Phase Second Edition українською
+### Eclipse Phase Second Edition – in Ukrainian
 
 [Rulebook](https://undead404.github.io/eclipsephase-uk/)
 
