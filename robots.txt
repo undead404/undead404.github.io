@@ -3,3 +3,4 @@ Allow: /
 
 Sitemap: https://undead404.github.io/sitemap.xml
 Sitemap: https://undead404.github.io/pisnia-tumaniv/sitemap.xml
+Sitemap: https://undead404.github.io/eclipsephase-uk/sitemap.xml
