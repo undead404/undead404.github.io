@@ -18,14 +18,18 @@ I also contribute to Ukrainian developer documentation and build tools for explo
 
 My main interests are:
 
-- full-stack web development with React and Node.js
-- music and drumming
-- tabletop role-playing games — for example, Kavaleriia (sci-fi, neofeudalism, mecha) by M87\* Games
-- genealogy — I blog mostly about it on [Threads (@brute18)](https://www.threads.com/@brute18)
+- {: .dialect-code} full-stack web development with React and Node.js
+- {: .dialect-noise} music and drumming
+- {: .dialect-worlds} tabletop role-playing games — for example, Kavaleriia (sci-fi, neofeudalism, mecha) by M87\* Games
+- {: .dialect-roots} genealogy — I blog mostly about it on [Threads (@brute18)](https://www.threads.com/@brute18)
+{: .interests}
 
 ## Current projects {#current-projects}
 
-### Корені
+<div class="dialect-region dialect-roots" markdown="1">
+
+### Корені {% include dialect-mark.html dialect="roots" %}
+{:#koreni .dialect-roots}
 
 [koreni.org.ua](https://koreni.org.ua/)
 
@@ -35,19 +39,34 @@ I created Корені, a search engine for genealogical indexes, bringing toget
 
 I also contribute archival indexes myself. As of November 2026, my [volunteer profile](https://koreni.org.ua/volunteers/vitalii-perehonchuk/) credits me with 122,900 records across 104 tables. My research includes parish registers, confession lists, and revision lists from places such as Politanky, Pysarivka (near Sharhorod), and Cherepashyntsi.
 
-### Sharhorod area genealogy
+</div>
+
+<div class="dialect-region dialect-roots" markdown="1">
+
+### Sharhorod area genealogy {% include dialect-mark.html dialect="roots" %}
+{:#sharhorod .dialect-roots}
 
 [sharhoroots.koreni.org.ua](https://sharhoroots.koreni.org.ua/)
 
 A knowledge base for researching family history and locating parish registers and archival records from the historical Sharhorod, Dzhuryn, and Murafa areas.
 
-### ЇХ Подкаст
+</div>
+
+<div class="dialect-region dialect-roots" markdown="1">
+
+### ЇХ Подкаст {% include dialect-mark.html dialect="roots" %}
+{:#podcast .dialect-roots}
 
 [Listen to the podcast (in Ukrainian)](https://podtail.com/en/podcast/cddf8d0f/)
 
 Oleksandr, the developer of The Duck Inspector, and I discuss genealogy, our research experiences, the Ukrainian genealogy community, and the software we build. Topics include why we research our family histories, gaps in the records, and the role of individuals in history.
 
-### Пісня туманів
+</div>
+
+<div class="dialect-region dialect-worlds" markdown="1">
+
+### Пісня туманів {% include dialect-mark.html dialect="worlds" %}
+{:#song-of-mists .dialect-worlds}
 
 [Knowledge base](https://undead404.github.io/pisnia-tumaniv/) · [YouTube playlist](https://www.youtube.com/playlist?list=PL2zoJ5Mco28pMShErqXngbEWYwr65IDCb)
 
@@ -55,20 +74,35 @@ A knowledge base for Пісня туманів ("Song of the Mists"), a campaign
 
 Our game master is [Oleksandr Trifan (Олександр Тріфан)](https://linktr.ee/alexander_trifan), the creator of Kavaleriia and founder of M87\* Games.
 
-### Eclipse Phase Second Edition – in Ukrainian
+</div>
+
+<div class="dialect-region dialect-worlds" markdown="1">
+
+### Eclipse Phase Second Edition – in Ukrainian {% include dialect-mark.html dialect="worlds" %}
+{:#eclipse-phase .dialect-worlds}
 
 [Rulebook](https://undead404.github.io/eclipsephase-uk/)
 
 Ukrainian translation of a post-apocalyptic sci-fi horror TTRPG – Eclipse Phase Second Edition.
 _Unfinished yet._
 
-### You Must Hear 8
+</div>
+
+<div class="dialect-region dialect-noise" markdown="1">
+
+### You Must Hear 8 {% include dialect-mark.html dialect="code" %}
+{:#you-must-hear-8 .dialect-code}
 
 [ymh8.pages.dev](https://ymh8.pages.dev/)
 
 A music discovery project for exploring releases, genres, and rankings.
 
-## Music {#music}
+</div>
+
+<div class="dialect-region dialect-noise" markdown="1">
+
+## Music {% include dialect-mark.html dialect="noise" %}
+{:#music .dialect-noise}
 
 Once I was a drummer:
 
@@ -79,37 +113,69 @@ I also used to write about extreme metal on my Telegram channel, [Непізна
 
 My Twitter threads about extreme metal from 2022 are easy to find on [Typefully](https://typefully.com/negativo_ua).
 
-## Work experience {#work-experience}
+</div>
 
-### EPAM
+<div class="dialect-region dialect-code" markdown="1">
+
+## Work experience {% include dialect-mark.html dialect="code" %}
+{:#work-experience .dialect-code}
+
+<div class="dialect-region dialect-code" markdown="1">
+
+### EPAM {% include dialect-mark.html dialect="code" %}
+{:#epam .dialect-code}
 
 _2020–present_
 
 I'm currently a Lead Software Engineer. My main focus is full-stack development with React and Node.js.
 
-### ElifTech
+</div>
+
+<div class="dialect-region dialect-code" markdown="1">
+
+### ElifTech {% include dialect-mark.html dialect="code" %}
+{:#eliftech .dialect-code}
 
 _2017–2020_
 
 My first software engineering job, where I grew from trainee to middle developer and mentored frontend students at ElifTech IT School.
 
+</div>
+
+</div>
+
 ## Education
 
 **Bachelor's degree in Software Engineering**, Vinnytsia National Technical University (ВНТУ), 2013–2017.
 
-## Open-source contributions {#open-source-contributions}
+<div class="dialect-region dialect-code" markdown="1">
 
-### WebDoky
+## Open-source contributions {% include dialect-mark.html dialect="code" %}
+{:#open-source-contributions .dialect-code}
+
+<div class="dialect-region dialect-code" markdown="1">
+
+### WebDoky {% include dialect-mark.html dialect="code" %}
+{:#webdoky .dialect-code}
 
 [webdoky.org](https://webdoky.org/) · [Content repository](https://github.com/webdoky/content)
 
 I contributed to WebDoky, a project making MDN web documentation available in Ukrainian. I also [helped invite new translators](https://discourse.mozilla.org/t/ukrainian-translations-are-gone-from-mdn/79939?page=2) to the project.
 
-### Ukrainian React documentation
+</div>
+
+<div class="dialect-region dialect-code" markdown="1">
+
+### Ukrainian React documentation {% include dialect-mark.html dialect="code" %}
+{:#react-docs .dialect-code}
 
 [uk.react.dev](https://uk.react.dev/) · [Translation contributions](https://github.com/reactjs/uk.react.dev/issues/457)
 
 I contributed Ukrainian translations of “Start a New React Project” and “Editor Setup,” along with work on navigation and sidebar titles.
+
+</div>
+
+</div>
 
 ## Past projects {#past-projects}
 

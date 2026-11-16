@@ -2,7 +2,12 @@
 ---
 @import "{{ site.theme }}";
 
-:root { --bg: #11140f; --panel: #171c13; --green: #b5ed65; --text: #d6d9ce; --muted: #929d85; --line: #36412e; }
+// Display faces include Latin and Cyrillic; prose keeps its existing monospace face.
+@font-face { font-family: 'Roboto Condensed'; font-style: normal; font-weight: 700; font-display: swap; src: url('../fonts/roboto-condensed-700.ttf') format('truetype'); }
+@font-face { font-family: 'Literata'; font-style: normal; font-weight: 600; font-display: swap; src: url('../fonts/literata-600.ttf') format('truetype'); }
+@font-face { font-family: 'Oswald'; font-style: normal; font-weight: 700; font-display: swap; src: url('../fonts/oswald-700.ttf') format('truetype'); }
+
+:root { --bg: #11140f; --panel: #171c13; --green: #b5ed65; --roots: #e6b477; --noise: #c0adfa; --worlds: #82c8f5; --font-code: 'Roboto Condensed', 'Arial Narrow', sans-serif; --font-roots: 'Literata', Georgia, serif; --font-noise: 'Oswald', Impact, sans-serif; --text: #d6d9ce; --muted: #929d85; --line: #36412e; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 28px; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.75 'Courier New', monospace; -webkit-font-smoothing: antialiased; }
@@ -22,17 +27,26 @@ a:focus-visible { outline: 2px solid var(--green); outline-offset: 6px; }
 .eyebrow { font-size: 10px; letter-spacing: 1.8px; color: var(--muted); margin: 0 0 28px; }
 .status-dot { display: inline-block; background: var(--green); width: 6px; height: 6px; margin-right: 8px; border-radius: 50%; box-shadow: 0 0 12px #b5ed6550; }
 h1,h2,h3 { font-family: inherit; text-shadow: none; }
-.hero h1 { font-family: Impact, 'Arial Narrow', sans-serif; font-size: clamp(78px, 9.5vw, 136px); line-height: .86; letter-spacing: -3px; color: var(--green); margin: 0 0 30px; font-weight: 900; }
-.outline {
-  color: var(--green);
-  text-shadow: 3px 3px 0 var(--bg), 5px 5px 0 var(--green);
-}
+.hero h1 { font-size: clamp(72px, 8.4vw, 118px); line-height: 1; letter-spacing: -3px; margin: 0 0 30px; }
+.dialect-code { --accent: var(--green); --display-font: var(--font-code); }
+.dialect-roots { --accent: var(--roots); --display-font: var(--font-roots); }
+.dialect-noise { --accent: var(--noise); --display-font: var(--font-noise); }
+.dialect-worlds { --accent: var(--worlds); --display-font: var(--font-code); }
+.hero-word { display: flex; align-items: center; gap: 20px; width: fit-content; color: var(--accent); font-family: var(--display-font); font-weight: 700; }
+.hero-word.dialect-roots { font-size: .82em; line-height: 1.25; font-weight: 600; letter-spacing: -.065em; }
+.hero-word.dialect-noise { letter-spacing: -.045em; }
+.dialect-symbols { position: absolute; width: 0; height: 0; overflow: hidden; }
+.dialect-mark { width: 76px; height: 32px; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: square; stroke-linejoin: miter; }
+.hero-word .dialect-mark { width: 76px; height: 40px; opacity: .8; }
 .hero-intro { margin: 0 0 25px; color: var(--text); font-size: 14px; line-height: 1.65; }
 .enter-link { font-size: 12px; text-decoration: none; border-bottom: 1px solid var(--green); padding-bottom: 8px; display: inline-flex; gap: 35px; }
-.specimen { color: var(--green); background: var(--panel); border: 1px solid var(--line); transform: rotate(2deg); }
+.specimen { color: var(--green); background: var(--bg); border: 1px solid var(--line); transform: rotate(2deg); }
 .specimen-label,.specimen-footer { display: flex; justify-content: space-between; align-items: center; padding: 13px 17px; font-size: 9px; letter-spacing: 1px; }
 .specimen-label { border-bottom: 1px solid var(--line); }
 .specimen-footer { border-top: 1px solid var(--line); color: var(--muted); }
+.ancestry-label { fill: var(--roots); }
+.noise-label { fill: var(--noise); }
+.sound-branch { stroke: var(--noise); }
 .root-system { width: 100%; display: block; }
 .signal { color: var(--green); letter-spacing: 2px; }
 .index-nav { display: flex; flex-wrap: wrap; gap: 22px; padding: 18px 0; border-block: 1px solid var(--line); font-size: 11px; }
@@ -43,7 +57,7 @@ h1,h2,h3 { font-family: inherit; text-shadow: none; }
 .field-notes h1 { font-size: 26px; letter-spacing: -1px; margin: 0 0 20px; color: var(--text); }
 .field-notes h1::before { content: '// '; color: var(--green); }
 .field-notes h2 { font-size: clamp(26px, 4vw, 40px); line-height: 1.2; letter-spacing: -1.5px; border-top: 1px solid var(--line); padding-top: 30px; margin: 65px 0 27px; color: var(--green); }
-.field-notes h2::before { content: '↳ '; font-weight: normal; }
+.field-notes h2::before { content: '↳ '; font-family: 'Courier New', monospace; font-weight: normal; }
 .field-notes h3 { font-size: 22px; line-height: 1.4; color: var(--text); margin: 37px 0 8px; }
 .field-notes p { margin: 0 0 20px; }
 .field-notes ul { padding-left: 24px; list-style: square; }
@@ -52,6 +66,26 @@ h1,h2,h3 { font-family: inherit; text-shadow: none; }
 .field-notes img { display: block; max-width: 100%; height: auto; border: 1px solid var(--line); filter: saturate(.6); margin: 25px 0; }
 .field-notes img[src$='/vitalii-perehonchuk.jpg'] { width: 220px; float: right; margin: 0 0 25px 35px; filter: none; box-shadow: 9px 9px 0 var(--panel); }
 .field-notes h2 { clear: both; }
+// Identical heading scale and ornaments; only the face and accent change.
+.field-notes h2[class*="dialect-"], .field-notes h3[class*="dialect-"] { color: var(--accent); font-family: var(--display-font); font-weight: 700; letter-spacing: -.025em; }
+.field-notes h3.dialect-roots { font-weight: 600; }
+// Carry each subject's accent through its content without changing prose or backgrounds.
+.dialect-region li, .interests li { list-style-image: none; }
+.field-notes .interests li::marker { color: var(--accent); }
+.dialect-region a, .dialect-region li::marker { color: var(--accent); }
+.dialect-region a:hover { color: var(--text); }
+.dialect-region a:focus-visible { outline-color: var(--accent); }
+.dialect-region ::selection { color: var(--bg); background: var(--accent); }
+.field-notes .dialect-region code { color: var(--accent); }
+.field-notes .dialect-region em { color: var(--accent); }
+a[href^="https://www.threads.com/"] { color: var(--roots); }
+a[href^="https://www.threads.com/"]:hover { color: var(--text); }
+a[href^="https://www.threads.com/"]:focus-visible { outline-color: var(--roots); }
+
+.field-notes h2 .dialect-mark, .field-notes h3 .dialect-mark { display: inline-block; vertical-align: middle; margin-left: 14px; width: 60px; height: 24px; }
+.field-notes h2 .dialect-mark { width: 90px; height: 36px; }
+.index-nav a[href="#music"] { color: var(--noise); }
+.index-nav a[href="#current-projects"] { color: var(--roots); }
 .field-notes code { color: var(--green); background: var(--panel); border: 1px solid var(--line); padding: 2px 6px; }
 .field-notes em { color: var(--muted); }
 .site-footer { border-top: 1px solid var(--line); padding: 26px 0 35px; display: flex; justify-content: space-between; gap: 20px; font-size: 10px; color: var(--muted); }
@@ -59,7 +93,7 @@ h1,h2,h3 { font-family: inherit; text-shadow: none; }
 .skip { position: absolute; top: -100px; left: 20px; background: var(--bg); padding: 10px; z-index: 10; }
 .skip:focus { top: 10px; }
 @media (min-width: 1000px) { .field-notes { padding-left: 190px; position: relative; } .field-notes::before { content: attr(data-aside); position: absolute; top: 8px; left: 0; width: 145px; font-size: 10px; letter-spacing: 1px; color: var(--muted); border-top: 1px solid var(--green); padding-top: 12px; } }
-@media (max-width: 760px) { .shell { padding: 0 24px; } .coordinates { display: none; } .hero { grid-template-columns: 1fr; gap: 42px; padding: 40px 0; } .hero h1 { font-size: clamp(90px, 21vw, 150px); } .specimen { max-width: 500px; width: 95%; justify-self: center; } .index-nav { gap: 14px 20px; } .index-nav span { flex-basis: 100%; } .archive-heading span:last-child { display: none; } .archive-heading { padding-bottom: 35px; } .field-notes img[src$='/vitalii-perehonchuk.jpg'] { width: 140px; margin-left: 20px; } .site-footer { flex-wrap: wrap; } .site-footer span { order: 3; flex-basis: 100%; } }
+@media (max-width: 760px) { .shell { padding: 0 24px; } .coordinates { display: none; } .hero { grid-template-columns: 1fr; gap: 42px; padding: 40px 0; } .hero h1 { font-size: clamp(76px, 19vw, 126px); } .specimen { max-width: 500px; width: 95%; justify-self: center; } .index-nav { gap: 14px 20px; } .index-nav span { flex-basis: 100%; } .archive-heading span:last-child { display: none; } .archive-heading { padding-bottom: 35px; } .field-notes img[src$='/vitalii-perehonchuk.jpg'] { width: 140px; margin-left: 20px; } .site-footer { flex-wrap: wrap; } .site-footer span { order: 3; flex-basis: 100%; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 .language-switch { display: inline-flex; flex-shrink: 0; margin-left: auto; margin-right: 24px; border: 1px solid var(--green); }
@@ -68,5 +102,16 @@ h1,h2,h3 { font-family: inherit; text-shadow: none; }
 a.language-option:hover { background: var(--panel); color: #efffcf; }
 .language-option.is-current { background: var(--green); color: var(--bg); }
 .coordinates { margin-left: auto; margin-right: 24px; }
-html[lang="uk"] .hero h1 { font-size: clamp(62px, 8vw, 112px); }
-@media (max-width: 760px) { html[lang="uk"] .hero h1 { font-size: clamp(58px, 16vw, 112px); } .language-switch { margin-right: 18px; } }
+html[lang="uk"] .hero h1 { font-size: clamp(60px, 7.5vw, 104px); }
+@media (max-width: 760px) { html[lang="uk"] .hero h1 { font-size: clamp(54px, 15vw, 104px); } .language-switch { margin-right: 18px; } }
+
+@media (max-width: 420px) {
+  .shell { padding-inline: 20px; }
+  .wordmark { font-size: 22px; }
+  .language-switch { margin-right: 12px; }
+  .language-option { min-width: 44px; padding-inline: 8px; }
+  .source-link { font-size: 10px; }
+  .hero-word { gap: 14px; }
+  .hero-word .dialect-mark { width: 56px; height: 28px; }
+  .field-notes h2 .dialect-mark { width: 60px; height: 24px; }
+}

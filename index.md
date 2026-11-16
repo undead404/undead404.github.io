@@ -18,14 +18,18 @@ sitemap: true
 
 Мої головні захоплення:
 
-- повний цикл веброзробки з React і Node.js
-- музика та гра на барабанах
-- настільні рольові ігри — наприклад, «Кавалерія» (НФ, неофеодалізм, мехи) від M87\* Games
-- генеалогія — саме про неї я переважно пишу у [Threads (@brute18)](https://www.threads.com/@brute18)
+- {: .dialect-code} повний цикл веброзробки з React і Node.js
+- {: .dialect-noise} музика та гра на барабанах
+- {: .dialect-worlds} настільні рольові ігри — наприклад, «Кавалерія» (НФ, неофеодалізм, мехи) від M87\* Games
+- {: .dialect-roots} генеалогія — саме про неї я переважно пишу у [Threads (@brute18)](https://www.threads.com/@brute18)
+{: .interests}
 
 ## Поточні проєкти {#current-projects}
 
-### Корені
+<div class="dialect-region dialect-roots" markdown="1">
+
+### Корені {% include dialect-mark.html dialect="roots" %}
+{:#koreni .dialect-roots}
 
 [koreni.org.ua](https://koreni.org.ua/)
 
@@ -35,19 +39,34 @@ sitemap: true
 
 Я й сам індексую архівні документи. Станом на листопад 2026 року в моєму [профілі волонтера](https://koreni.org.ua/volunteers/vitalii-perehonchuk/) зазначено 122 900 записів у 104 таблицях. Серед матеріалів, з якими я працюю, — метричні книги, сповідні розписи та ревізькі казки з Політанок, Писарівки, Черепашинців та інших населених пунктів.
 
-### Генеалогія Шаргородщини
+</div>
+
+<div class="dialect-region dialect-roots" markdown="1">
+
+### Генеалогія Шаргородщини {% include dialect-mark.html dialect="roots" %}
+{:#sharhorod .dialect-roots}
 
 [sharhoroots.koreni.org.ua](https://sharhoroots.koreni.org.ua/)
 
 База знань для дослідження родоводу та пошуку метричних книг і архівних документів з історичних околиць Шаргорода, Джурина та Мурафи.
 
-### ЇХ Подкаст
+</div>
+
+<div class="dialect-region dialect-roots" markdown="1">
+
+### ЇХ Подкаст {% include dialect-mark.html dialect="roots" %}
+{:#podcast .dialect-roots}
 
 [Слухати подкаст](https://podtail.com/en/podcast/cddf8d0f/)
 
 Ми з Олександром, розробником Качиного Інспектора, обговорюємо генеалогію, власний досвід досліджень, українську генеалогічну спільноту та програми, які створюємо. Говоримо про те, навіщо досліджуємо родоводи, про прогалини в документах і роль особистості в історії.
 
-### Пісня туманів
+</div>
+
+<div class="dialect-region dialect-worlds" markdown="1">
+
+### Пісня туманів {% include dialect-mark.html dialect="worlds" %}
+{:#song-of-mists .dialect-worlds}
 
 [База знань](https://undead404.github.io/pisnia-tumaniv/) · [Список відтворення на YouTube](https://www.youtube.com/playlist?list=PL2zoJ5Mco28pMShErqXngbEWYwr65IDCb)
 
@@ -55,20 +74,35 @@ sitemap: true
 
 Наш майстер гри — [Олександр Тріфан](https://linktr.ee/alexander_trifan), автор НРГ "Кавалерія" та засновник M87\* Games.
 
-### Eclipse Phase Second Edition українською
+</div>
+
+<div class="dialect-region dialect-worlds" markdown="1">
+
+### Eclipse Phase Second Edition українською {% include dialect-mark.html dialect="worlds" %}
+{:#eclipse-phase .dialect-worlds}
 
 [Книга правил](https://undead404.github.io/eclipsephase-uk/)
 
 Український переклад постапокаліптичної науково-фантастичної НРГ жахів Eclipse Phase Second Edition.
 _Поки незакінчений._
 
-### You Must Hear 8
+</div>
+
+<div class="dialect-region dialect-noise" markdown="1">
+
+### You Must Hear 8 {% include dialect-mark.html dialect="noise" %}
+{:#you-must-hear-8 .dialect-noise}
 
 [ymh8.pages.dev](https://ymh8.pages.dev/)
 
 Проєкт для пошуку нової музики: дослідження релізів, жанрів і рейтингів.
 
-## Музика {#music}
+</div>
+
+<div class="dialect-region dialect-noise" markdown="1">
+
+## Музика {% include dialect-mark.html dialect="noise" %}
+{:#music .dialect-noise}
 
 Грав на ударних:
 
@@ -79,37 +113,69 @@ _Поки незакінчений._
 
 Мої треди у Twitter про екстремальний метал за 2022 рік легко знайти на [Typefully](https://typefully.com/negativo_ua).
 
-## Досвід роботи {#work-experience}
+</div>
 
-### EPAM
+<div class="dialect-region dialect-code" markdown="1">
+
+## Досвід роботи {% include dialect-mark.html dialect="code" %}
+{:#work-experience .dialect-code}
+
+<div class="dialect-region dialect-code" markdown="1">
+
+### EPAM {% include dialect-mark.html dialect="code" %}
+{:#epam .dialect-code}
 
 _2020 — дотепер_
 
 Зараз працюю на посаді Lead Software Engineer. Основний напрям — повний цикл веброзробки з React і Node.js.
 
-### ElifTech
+</div>
+
+<div class="dialect-region dialect-code" markdown="1">
+
+### ElifTech {% include dialect-mark.html dialect="code" %}
+{:#eliftech .dialect-code}
 
 _2017–2020_
 
 Моя перша робота у розробці програмного забезпечення. Тут я виріс від стажера до розробника рівня middle та був ментором студентів фронтенду в ElifTech IT School.
 
+</div>
+
+</div>
+
 ## Освіта
 
 **Бакалавр з програмної інженерії**, Вінницький національний технічний університет (ВНТУ), 2013–2017.
 
-## Внесок у відкритий код {#open-source-contributions}
+<div class="dialect-region dialect-code" markdown="1">
 
-### WebDoky
+## Внесок у відкритий код {% include dialect-mark.html dialect="code" %}
+{:#open-source-contributions .dialect-code}
+
+<div class="dialect-region dialect-code" markdown="1">
+
+### WebDoky {% include dialect-mark.html dialect="code" %}
+{:#webdoky .dialect-code}
 
 [webdoky.org](https://webdoky.org/) · [Репозиторій вмісту](https://github.com/webdoky/content)
 
 Я долучався до WebDoky — проєкту, що робить вебдокументацію MDN доступною українською. Також [допомагав залучати нових перекладачів](https://discourse.mozilla.org/t/ukrainian-translations-are-gone-from-mdn/79939?page=2) до проєкту.
 
-### Українська документація React
+</div>
+
+<div class="dialect-region dialect-code" markdown="1">
+
+### Українська документація React {% include dialect-mark.html dialect="code" %}
+{:#react-docs .dialect-code}
 
 [uk.react.dev](https://uk.react.dev/) · [Внесок у переклад](https://github.com/reactjs/uk.react.dev/issues/457)
 
 Я перекладав українською сторінки «Початок нового React-проєкту» та «Налаштування редактора», а також працював над назвами в навігації та бічній панелі.
+
+</div>
+
+</div>
 
 ## Минулі проєкти {#past-projects}
 

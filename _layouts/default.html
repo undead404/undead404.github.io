@@ -14,6 +14,7 @@
   <title>{{ t.title | escape }}</title>
 </head>
 <body>
+  {% include dialect-symbols.html %}
   <a class="skip" href="#main_content">{{ t.skip }}</a>
   <div class="shell">
     <header class="masthead">
@@ -37,7 +38,7 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow"><span class="status-dot"></span> {{ t.eyebrow }}</p>
-          <h1 id="hero-title">{{ t.code }}<br>{{ t.roots }}<br><span class="outline">{{ t.noise }}</span></h1>
+          <h1 id="hero-title"><span class="hero-word dialect-code">{{ t.code }}{% include dialect-mark.html dialect="code" %}</span><span class="hero-word dialect-roots">{{ t.roots }}{% include dialect-mark.html dialect="roots" %}</span><span class="hero-word dialect-noise">{{ t.noise }}{% include dialect-mark.html dialect="noise" %}</span></h1>
           <p class="hero-intro">{{ t.name }}<br>{{ t.trade }}<br>{{ t.instinct }}</p>
           <a class="enter-link" href="#current-projects">{{ t.explore }} <span>↘</span></a>
         </div>
@@ -50,13 +51,14 @@
             <g fill="none" stroke="currentColor">
               <circle cx="270" cy="235" r="155" stroke-dasharray="2 9" opacity=".5"/>
               <circle cx="270" cy="235" r="104" opacity=".2"/>
-              <path d="M270 422V272M270 330l-75-45v-70l-65-40v-60M270 365l108-62v-71l48-28v-65M270 290l65-38v-85l-65-38V65M270 272l-43-25v-92l-48-28V85M195 250l-62 35H80M378 280l63 37v50M335 198l57-33V95M227 196l-62-36H75M270 390l-80 46H125M270 402l73 42h55" stroke-width="2"/>
+              <path class="ancestry-branch" d="M270 422V272M270 330l-75-45v-70l-65-40v-60M270 365l108-62v-71l48-28v-65M270 290l65-38v-85l-65-38V65M270 272l-43-25v-92l-48-28V85M195 250l-62 35H80M378 280l63 37v50M335 198l57-33V95M227 196l-62-36H75M270 390l-80 46H125M270 402l73 42h55" stroke-width="2"/>
               <path d="M265 422V285M275 422V285" opacity=".35"/>
-              <g stroke-width="2" fill="#171c13"><circle cx="270" cy="65" r="8"/><circle cx="179" cy="85" r="5"/><circle cx="130" cy="115" r="8"/><circle cx="75" cy="160" r="5"/><circle cx="80" cy="285" r="8"/><circle cx="426" cy="139" r="8"/><circle cx="392" cy="95" r="5"/><circle cx="441" cy="367" r="8"/><circle cx="125" cy="436" r="5"/><circle cx="398" cy="444" r="5"/></g>
+              <g stroke-width="2" fill="#11140f"><circle cx="270" cy="65" r="8"/><circle cx="179" cy="85" r="5"/><circle cx="130" cy="115" r="8"/><circle cx="75" cy="160" r="5"/><circle cx="80" cy="285" r="8"/><circle cx="426" cy="139" r="8"/><circle cx="392" cy="95" r="5"/><circle cx="441" cy="367" r="8"/><circle cx="125" cy="436" r="5"/><circle cx="398" cy="444" r="5"/></g>
+              <path class="sound-branch" d="M378 303h18l6-12 7 24 8-36 8 48 8-24h24" stroke-width="2"/>
               <path d="M255 235l15-20 15 20-15 20z" fill="currentColor"/>
               <path d="M250 26h40M270 6v40M35 235h25M47 223v24M475 235h25M488 223v24" opacity=".6"/>
             </g>
-            <g fill="currentColor" font-family="monospace" font-size="11" letter-spacing="2"><text x="286" y="64">{{ t.ancestry }}</text><text x="66" y="102">{{ t.diagram_code }}</text><text x="424" y="135">{{ t.diagram_noise }}</text><text x="392" y="392">{{ t.worlds }}</text><text x="245" y="477">{{ t.branching }}</text></g>
+            <g fill="currentColor" font-family="monospace" font-size="11" letter-spacing="2"><text class="ancestry-label" x="286" y="64">{{ t.ancestry }}</text><text x="66" y="102">{{ t.diagram_code }}</text><text class="noise-label" x="424" y="135">{{ t.diagram_noise }}</text><text x="392" y="392">{{ t.worlds }}</text><text x="245" y="477">{{ t.branching }}</text></g>
           </svg>
           <div class="specimen-footer"><span>{{ t.rabbit_holes }}</span><span class="signal" aria-hidden="true">▂▅▃▇▂▆▃</span></div>
         </div>
