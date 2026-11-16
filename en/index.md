@@ -187,6 +187,21 @@ _2024_
 
 In 2024, I maintained a [blog on Drukarnia](https://drukarnia.com.ua/negativo_ua), publishing translations and my own writing on a variety of topics.
 
+<div class="dialect-region dialect-code" markdown="1">
+
+### Шукання (Shukannia) {% include dialect-mark.html dialect="code" %}
+{:#shukannia .dialect-code}
+
+_2020 · No longer active._
+
+Shukannia was an IMDb data aggregator that dynamically generated compact lists of the best films, TV series, and individual episodes based on selected filters. It could also surface the worst films and titles that divided opinion.
+
+The site ran at `shukannia.now.sh`. I wrote about it on April 25, 2020.
+
+![Surviving fragment of Shukannia: a film list with posters, release dates, genres, countries, and short descriptions](/assets/img/shukannia.jpg)
+
+</div>
+
 ### socmusrec
 
 _JavaScript, AngularJS, Last.fm API, Azure_
