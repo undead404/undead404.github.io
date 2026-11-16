@@ -1,0 +1,68 @@
+{%- assign canonical_url = page.url | absolute_url -%}
+{%- assign home_url = '/' | absolute_url -%}
+{%- assign person_id = home_url | append: '#person' -%}
+{%- assign website_id = home_url | append: '#website' -%}
+{%- assign image_url = site.data.identity.image | absolute_url -%}
+<meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{{ t.title | escape }}">
+  <meta property="og:description" content="{{ t.description | escape }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:locale" content="{{ t.locale }}">
+  <meta property="og:locale:alternate" content="{{ t.alternate_locale }}">
+  <meta property="og:image" content="{{ image_url }}">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="{{ site.data.identity.image_width }}">
+  <meta property="og:image:height" content="{{ site.data.identity.image_height }}">
+  <meta property="og:image:alt" content="{{ t.image_alt | escape }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@negativo_ua">
+  <meta name="twitter:title" content="{{ t.title | escape }}">
+  <meta name="twitter:description" content="{{ t.description | escape }}">
+  <meta name="twitter:image" content="{{ image_url }}">
+  <meta name="twitter:image:alt" content="{{ t.image_alt | escape }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": {{ person_id | jsonify }},
+        "name": {{ t.person_name | jsonify }},
+        "alternateName": [{{ t.person_alternate_name | jsonify }}, "undead404"],
+        "url": {{ home_url | jsonify }},
+        "image": {{ image_url | jsonify }},
+        "jobTitle": {{ t.job_title | jsonify }},
+        "sameAs": {{ site.data.identity.same_as | jsonify }}
+      },
+      {
+        "@type": "WebSite",
+        "@id": {{ website_id | jsonify }},
+        "url": {{ home_url | jsonify }},
+        "name": {{ site.title | jsonify }},
+        "inLanguage": ["uk", "en"],
+        "publisher": {"@id": {{ person_id | jsonify }}},
+        "about": {"@id": {{ person_id | jsonify }}}
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": {{ canonical_url | append: '#webpage' | jsonify }},
+        "url": {{ canonical_url | jsonify }},
+        "name": {{ t.title | jsonify }},
+        "description": {{ t.description | jsonify }},
+        "inLanguage": {{ page.lang | jsonify }},
+        "isPartOf": {"@id": {{ website_id | jsonify }}},
+        "mainEntity": {"@id": {{ person_id | jsonify }}},
+        "mentions": {"@id": "https://koreni.org.ua/#project"}
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://koreni.org.ua/#project",
+        "name": "Корені",
+        "url": "https://koreni.org.ua/",
+        "description": {{ t.koreni_description | jsonify }},
+        "creator": {"@id": {{ person_id | jsonify }}}
+      }
+    ]
+  }
+  </script>

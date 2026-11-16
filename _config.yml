@@ -15,6 +15,9 @@ title: undead404
 url: "https://undead404.github.io"
 baseurl: ""
 exclude:
+  - AGENTS.md
+  - SEO-AUDIT.md
+  - scripts
   - README.md
   - Gemfile
   - Gemfile.lock

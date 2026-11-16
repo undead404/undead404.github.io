@@ -13,6 +13,9 @@ My personal website. Jekyll, the Hacker theme, Markdown, and GitHub Pages.
 - `assets/style/style.scss` — legacy theme entry point.
 - `assets/img/` — original photos and project screenshots.
 - `sitemap.xml` — sitemap template.
+- `_includes/metadata.html` — localized social cards and linked Schema.org identities.
+- `_data/identity.yml` — shared portrait and verified profile links.
+- `SEO-AUDIT.md` — metadata decisions, validation evidence, and limitations.
 
 The homepage has its own entry point instead of depending on GitHub Pages interpreting this README as a website. Repository documentation is excluded from the published site.
 
@@ -31,6 +34,15 @@ Open the local address printed by Jekyll. To build without starting a server:
 ```sh
 mise exec -- bundle exec jekyll build
 ```
+
+After building, validate both pages' metadata and structured data:
+
+```sh
+mise exec -- bundle exec ruby scripts/validate_metadata.rb
+```
+
+The validator also accepts a build directory and an optional local copy of the
+official Schema.org JSON-LD vocabulary. See `SEO-AUDIT.md` for the extended check.
 
 The `github-pages` gem uses GitHub Pages' dependency set. `Gemfile.lock` records the resolved versions for local development. Update it deliberately with `mise exec -- bundle update github-pages`. Using `mise exec --` explicitly selects the project's Ruby, even if your shell still resolves plain `ruby` or `bundle` to macOS's system installation.
 

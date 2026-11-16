@@ -1,17 +1,19 @@
 {% assign t = site.data.i18n[page.lang] %}
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}" prefix="og: https://ogp.me/ns#">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#11140f">
-  <meta name="description" content="{{ t.description }}">
+  <meta name="description" content="{{ t.description | escape }}">
+  <meta name="author" content="{{ t.person_name | escape }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="alternate" hreflang="uk" href="{{ '/' | absolute_url }}">
   <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
   <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
   <title>{{ t.title | escape }}</title>
+  {% include metadata.html %}
 </head>
 <body>
   {% include dialect-symbols.html %}
